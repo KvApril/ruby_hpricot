@@ -7,10 +7,10 @@ require 'digest/md5'
 
 ActiveRecord::Base.establish_connection(
     :adapter => "mysql2",
-    :host => "rds0i96b9l2h7p94x5od.mysql.rds.aliyuncs.com",
-    :database => "hotel",
-    :username => "hotel",
-    :password => "hotel123",
+    :host => "xx",
+    :database => "xxx",
+    :username => "xxx",
+    :password => "xxxx",
     :encoding => "utf8")
 
 def pass(x)
