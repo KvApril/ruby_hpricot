@@ -6,12 +6,7 @@ require 'json'
 require 'digest/md5'
 
 ActiveRecord::Base.establish_connection(
-    :adapter => "mysql2",
-    :host => "rds0i96b9l2h7p94x5od.mysql.rds.aliyuncs.com",
-    :database => "hotel",
-    :username => "hotel",
-    :password => "hotel123",
-    :encoding => "utf8")
+)
 
 class Hotel < ActiveRecord::Base
 end
